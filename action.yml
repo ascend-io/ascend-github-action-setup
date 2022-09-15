@@ -1,0 +1,7 @@
+# Github Action - action.yml
+name: 'Ascend Demo CICD'
+description: 'Hooks up to Ascend environment'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
