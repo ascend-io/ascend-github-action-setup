@@ -4,9 +4,7 @@ Setup script to generate [Ascend](https://www.ascend.io/) dataflow pipelines.
 
 ## Pre-requisites
 
-* Make sure you have a [buildkite account](https://buildkite.com/).
 * Make sure you have a [github](https://github.com/)/[bitbucket](https://id.atlassian.com/login?application=bitbucket) account.
-* Make sure you have an active [buildkite-agent](https://buildkite.com/docs/agent/v3) to store your secrets.
 
 
 ## Setup guide
