@@ -7,8 +7,6 @@ jobs:
     steps:
     - name: Checkout repo
       uses: actions/checkout@v3
-#     - name: Test with pytest
-#       run: pytest
     - name: Deploy to Ascend
       uses: ./
       env:
