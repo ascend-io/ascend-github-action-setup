@@ -4,17 +4,10 @@ Setup script to generate [Ascend](https://www.ascend.io/) dataflow pipelines.
 
 ## Pre-requisites
 
-* Make sure you have a [github](https://github.com/)/[bitbucket](https://id.atlassian.com/login?application=bitbucket) account.
+* Make sure you have a [github](https://github.com/) account.
 
 
 ## Setup guide
-
-```
-$ python3 -m venv venv/
-$ source venv/bin/activate
-$ pip3 install -r requirements.txt
-```
-
 Obtain your access and secret keys from your Ascend environment as it is required in the next step.
 It can be found from your Profile tab:
 
@@ -28,13 +21,21 @@ export ASCEND_ACCESS_KEY_ID=MY_ACCESS_KEY
 export ASCEND_SECRET_ACCESS_KEY=MY_SECRET
 ```
 
+Then create your python virtual environment
+
+```
+$ python3 -m venv venv/
+$ source venv/bin/activate
+$ pip3 install -r requirements.txt
+```
+
 ### Initialize the repository for CICD
 ```
 $ python3 init.py
 ```
 
 Once that is completed, your Ascend dataflow will be downloaded locally. 
-You can now create a new remote repo on github/bitbucket and create a webhook for buildkite.
+You can now create a new remote repo on github/bitbucket and create an action for github.
 ```
 $ git remote rm origin
 $ git remote add origin YOUR_NEW_REPO
