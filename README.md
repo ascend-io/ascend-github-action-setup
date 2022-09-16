@@ -35,7 +35,7 @@ $ python3 init.py
 ```
 
 Once that is completed, your Ascend dataflow will be downloaded locally. 
-You can now create a new remote repo on github/bitbucket and create an action for github.
+You can now create a new remote repo on github and create an action for github.
 ```
 $ git remote rm origin
 $ git remote add origin YOUR_NEW_REPO
