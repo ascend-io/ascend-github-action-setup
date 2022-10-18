@@ -1,6 +1,6 @@
 # Ascend CICD for Dataflows
 
-Setup script to generate [Ascend](https://www.ascend.io/) dataflow pipelines. 
+Setup script to generate [Ascend](https://www.ascend.io/) data services/dataflow pipelines. 
 
 ## Pre-requisites
 
